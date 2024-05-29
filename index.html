@@ -4,19 +4,19 @@
 <h1>Denna sida innehåller koden jag använde för att beräkna elektronmassorna för vetenskapets hus labben!</h1>
 
 <a>while (True):</a>
-<hr>
+<br>
 <a>  a = float(input("Ström (A)"))</a>
-<hr>
+<br>
 <a>  u = float(input("Spänning (V)"))</a>
-<hr>
+<br>
 <a>  r = float(input("radie (meter)"))</a>
+<br>
 <hr>
-<a>#-----------------------------------------#</a>
-<hr>
+<br>
 <a>  m = ((((r**2)*(1.602)*(10**(-19)))/(2*u))*((((541)/(781250))*a)**2))</a>
-<hr>
-<a>>  mprefix = m*(10**(31))</a>
-<hr>
+<br>
+<a>  mprefix = m*(10**(31))</a>
+<br>
 <a>  mprefixshort = round(mprefix, 5)</a>
-<hr>
+<br>
 <a>  print(f"Massan av elektronen är estimerad till {mprefixshort} *10^-31")</a>
